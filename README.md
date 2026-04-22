@@ -27,3 +27,13 @@
 - Git, GitHub, SSH
 - VS Code, WSL2, Docker Desktop
 - PowerShell / Cmd / Git Bash
+
+## 🐛 Решённый кейс
+
+**[Ошибка TLS handshake timeout в Docker](cases/docker-tls-fix.md)**
+
+Проблема: `docker run hello-world` → таймаут при авторизации.  
+Решение: VPN на роутере + настройка MTU для WSL.  
+Вывод: проблема была не в Docker, а в сетевой маршрутизации.
+
+[Подробнее →](cases/docker-tls-fix.md)
